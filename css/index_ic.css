@@ -1,0 +1,92 @@
+/*input, label {*/
+/*    display:block;*/
+/*}*/
+
+#form_container{
+    width:50%;
+    margin:auto;
+}
+
+#submit_btn{
+    background-color:#333;
+    color:#fff;
+    padding:10px 15px;
+    border:none;
+    display:block;
+    margin:15px 5px;
+}
+
+#submit_btn:hover {
+    background:red;
+    color:#fff;
+}
+
+
+.form_container{
+    width:40%;
+    margin:auto;
+}
+
+input:checked {
+    border: 6px solid black;
+}
+
+#reg_form_header {
+    font-size: xx-large;
+}
+
+#submit_btn{
+    background-color:#333;
+    color:#fff;
+    padding:10px 15px;
+    border:none;
+    display:block;
+    margin:15px 5px;
+
+}
+
+#submit_btn:hover{
+    background:red;
+    color:#fff;
+}
+
+body {
+    font-family: Calibri, SansSerif, serif;
+    font-size: large;
+}
+.clr{
+    clear:both;
+}
+
+.reg-form{
+    padding:20px;
+}
+
+.reg-form .control, .radio_control{
+    padding-bottom:15px;
+}
+
+.control label{
+    display:block;
+}
+
+.reg-form input[type="text"], .reg-form textarea{
+    padding:8px;
+    width:50%;
+}
+
+
+
+
+
+
+
+
+
+
+/*#label:nth-child(2) {*/
+/*    background: darkgray;*/
+/*}*/
+
+
+

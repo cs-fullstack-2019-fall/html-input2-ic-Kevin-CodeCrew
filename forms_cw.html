@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 1 - HTML forms cw</title>
+    <link rel="stylesheet" href="css/index_ic.css">
+</head>
+<body>
+<div class="form_container">
+    <header id="reg_form_header">User Registration Form</header>
+    <section id="reg_form_main">
+        <form id="reg_form" class="reg-form" action="GET">
+            <fieldset name="reg_form_field_set1">
+                <legend><h3>User Information</h3></legend>
+                <div class="control">
+                    <label for="reg_email">Email:</label>
+                    <input type="email" id="reg_email" required/>
+                </div>
+                <div class="control">
+                    <label for="reg_first_name">First Name:</label>
+                    <input type="text" id="reg_first_name" required/>
+                </div>
+                <div class="control">
+                    <label for="reg_last_name">Last Name:</label>
+                    <input type="text" id="reg_last_name" required/>
+                </div>
+                <div class="control">
+                    <label for="reg_password">Password:</label>
+                    <input type="password" id="reg_password" required/>
+                </div>
+            </fieldset>
+            <fieldset name="reg_form_field_set2">
+                <legend><h3>Optional Information</h3></legend>
+                <div class="radio_control">
+                    <input type="radio" id="reg_sex_male" name="reg_sex_radio_group" value="male"/>
+                    <label for="reg_sex_male">Male</label>
+                    <input type="radio" id="reg_sex_female" name="reg_sex_radio_group" value="female"/>
+                    <label for="reg_sex_female">Female</label>
+                    <input type="radio" id="reg_sex_na" name="reg_sex_radio_group" value="na" checked/>
+                    <label for="reg_sex_na">Prefer not to say</label>
+                </div>
+
+                <div class="control">
+                    <label for="reg_birthday">Birthday:</label>
+                    <input type="date" id="reg_birthday"/>
+                </div>
+            </fieldset>
+            <input type="checkbox" id="reg_terms"/>
+            <label for="reg_terms">I agree to the terms and conditions</label>
+            <input id="submit_btn" type="submit" value="Submit Registration"/>
+
+        </form>
+    </section>
+</div>
+</body>
+</html>
+

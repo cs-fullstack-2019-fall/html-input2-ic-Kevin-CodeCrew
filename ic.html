@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IC Forms</title>
+    <link rel="stylesheet" href="css/index_ic.css">
+</head>
+<body>
+<div id=form_container>
+    <form>
+        <h1 id="frm_title">Report a Problem</h1>
+        <form id="support_frm">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <fieldset>
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" required maxlength="50"/>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" required maxlength="50"/>
+                </fieldset>
+                <fieldset>
+                    <label for="uname">User Name:</label>
+                    <input type="text" id="uname" required maxlength="50"/>
+                    <label for="cemail">Contact Email:</label>
+                    <input type="email" id="cemail" required/>
+                </fieldset>
+                <fieldset>
+                    <label for="logf">Upload screeshot or log file:</label>
+                    <input type="file" id="logf" required/>
+                </fieldset>
+                <fieldset>
+                    <textarea rows="10" cols="100" id="ta" placeholder="Describe your problem here..."></textarea>
+                </fieldset>
+                <input type="submit" value="Submit Your Problem" id="submit_btn"/>
+            </fieldset>
+        </form>
+    </form>
+</div>
+</body>
+</html>

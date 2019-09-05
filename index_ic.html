@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Practice</title>
+    <link rel="stylesheet" href="css/index_ic.css">
+</head>
+<body>
+<div id="container">
+    <form id="test_form">
+        <h1 id="form_title">Sample Form</h1>
+        <fieldset>
+            <legend>User Information</legend>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" required maxlength="50"/>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" required maxlength="50"/>
+
+            <label for="email">email:</label>
+            <input type="email" id="email" required/>
+
+            <label for="phone">Phone:</label>
+            <input type="number" id="phone"/>
+
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday"/>
+
+            <label for="log">Log File:</label>
+            <input type="file" id="log"/>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password"/>
+
+            <input type="hidden" id="hid" value="some_secret_code"/>
+            <label for="ta">Text Area:</label>
+            <textarea id="ta" cols="80" rows="15"></textarea>
+
+<!--            Other control types-->
+            <label for="cb">Check for Yes:</label>
+            <input type="checkbox" id="cb" name="cb1" checked>
+
+            <label for="rb1">Married</label>
+            <input type="radio" id="rb1" name="rg1" checked value="married">
+            <label for="rb2">Single</label>
+            <input type="radio" id="rb2" name="rg1" checked value="single">
+            <label for="rb3">Other</label>
+            <input type="radio" id="rb3" name="rg1" checked>
+
+        </fieldset>
+
+        <input type="submit" value="Submit Form"/>
+    </form>
+
+
+</div>
+</body>
+</html>
